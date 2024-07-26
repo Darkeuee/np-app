@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define variables for image names
-BACKEND_IMAGE="kornzysiek/backend:latest"
-FRONTEND_IMAGE="kornzysiek/frontend:latest"
+BACKEND_IMAGE="darkeue/backend:latest"
+FRONTEND_IMAGE="darkeue/frontend:latest"
 
 # Create resource group
 az group create --name nprog --location eastus
